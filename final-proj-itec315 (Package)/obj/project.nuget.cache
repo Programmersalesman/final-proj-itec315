@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0dLpwexm4sI6Nke84lPsFptmRxNy4zYOUZBYoeqOgjUuVVKBUhn6Ce5RTRvqjiIrazkisqkGTDrZ27KdLUXRug==",
+  "dgSpecHash": "4Y075aaDEWgZcHHxzrc8vj7xNkBP/vdLg7DPfU17z0UMvCHvFQftwcCD5yYjZIFk2DkbDlPWDEkGadIay5DQSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tsb07\\source\\repos\\final-proj-itec315\\final-proj-itec315 (Package)\\final-proj-itec315 (Package).wapproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tsb07\\.nuget\\packages\\googlemaps.locationservices\\1.2.0.5\\googlemaps.locationservices.1.2.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\tsb07\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512"
   ],

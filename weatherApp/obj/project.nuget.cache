@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "n/6oFus5Q4sF1BLKKdMLRYGzqIRRzamwGMfi6E2ba61SzA+4PNk4/Df6UM9Npu4j6dbKMmUnAX7zB9FVmqo5uA==",
+  "dgSpecHash": "SSTi6H6McZ18i/jIuDY5EvVCrI0KXCtbtjcxHBDfXhpivhzZCVXQgFbAkP7IoztLhAHAK1wrgX0uQW3UU8hByg==",
   "success": true,
   "projectFilePath": "C:\\Users\\tsb07\\source\\repos\\final-proj-itec315\\weatherApp\\weatherApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tsb07\\.nuget\\packages\\googleapi\\4.0.7\\googleapi.4.0.7.nupkg.sha512",
+    "C:\\Users\\tsb07\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\tsb07\\.nuget\\packages\\portable.bouncycastle\\1.8.10\\portable.bouncycastle.1.8.10.nupkg.sha512"
+  ],
   "logs": []
 }

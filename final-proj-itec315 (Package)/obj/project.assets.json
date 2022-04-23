@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -43,6 +52,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -78,6 +96,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -113,6 +140,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -151,6 +187,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -189,6 +234,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -227,6 +281,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -265,6 +328,15 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "GoogleMaps.LocationServices/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GoogleMaps.LocationServices.dll": {}
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -304,6 +376,18 @@
     }
   },
   "libraries": {
+    "GoogleMaps.LocationServices/1.2.0.5": {
+      "sha512": "0j3RL5+acxYgQNz72JdXJ1nUKxMGaY+6UvrOIOxZfp0qpJOUmo/ivCAm53atbnuy0z3vrZK+j9mZifh35UBqag==",
+      "type": "package",
+      "path": "googlemaps.locationservices/1.2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "googlemaps.locationservices.1.2.0.5.nupkg.sha512",
+        "googlemaps.locationservices.nuspec",
+        "lib/netstandard2.0/GoogleMaps.LocationServices.dll"
+      ]
+    },
     "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
       "sha512": "4L0P3zqut466SIqT3VBeLTNUQTxCBDOrTRymRuROCRJKazcK7ibLz9yAO1nKWRt50ttCj39oAa2Iuz9ZTDmLlg==",
       "type": "package",
@@ -807,6 +891,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "GoogleMaps.LocationServices >= 1.2.0.5",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194 <= 10.0.22000.194",
       "Microsoft.WindowsAppSDK >= 1.0.0 <= 1.0.0",
       "final-proj-itec315 >= 1.0.0"
@@ -855,6 +940,10 @@
       "uap10.0.17763": {
         "targetAlias": "net451",
         "dependencies": {
+          "GoogleMaps.LocationServices": {
+            "target": "Package",
+            "version": "[1.2.0.5, )"
+          },
           "Microsoft.Windows.SDK.BuildTools": {
             "include": "Build",
             "target": "Package",

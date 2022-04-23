@@ -34,7 +34,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.locationSearch = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,19 +90,20 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Add new location...";
             // 
-            // textBox1
+            // locationSearch
             // 
-            this.textBox1.Location = new System.Drawing.Point(118, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(310, 36);
-            this.textBox1.TabIndex = 3;
+            this.locationSearch.Location = new System.Drawing.Point(118, 53);
+            this.locationSearch.Name = "locationSearch";
+            this.locationSearch.Size = new System.Drawing.Size(310, 36);
+            this.locationSearch.TabIndex = 3;
+            this.locationSearch.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // weatherApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1205, 746);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.locationSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
@@ -124,6 +125,6 @@
         private TabPage tabPage1;
         private TabPage tabPage2;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox locationSearch;
     }
 }

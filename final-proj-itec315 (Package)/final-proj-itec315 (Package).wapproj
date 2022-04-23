@@ -64,6 +64,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="GoogleMaps.LocationServices" Version="1.2.0.5" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="[1.0.0]">
       <IncludeAssets>build</IncludeAssets>
     </PackageReference>
